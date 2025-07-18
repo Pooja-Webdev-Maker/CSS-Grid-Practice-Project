@@ -1,0 +1,52 @@
+.container {
+  min-height: 80vh;
+  background-color: gray;
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.box {
+  font-size: 25px;
+  color: #ffff;
+  background-color: blueviolet;
+}
+
+.header, .footer {
+  grid-column-start: span 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  grid-row-start: span 2;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-1 {
+  grid-column-start: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
